@@ -1,0 +1,35 @@
+.parent_data_block {
+    margin-top: 20px;
+}
+
+.parent_data {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+
+.children_data_block {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.child_card {
+    background: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 44px;
+    margin: 10px;
+    margin-right: auto;
+}
+
+.child_data {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0px;
+}

@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    height: 76px;
+    border-bottom: 1px solid #1111111a;
+    align-items: center;
+}
+
+.h_nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.h_logo {
+    margin-left: 51px;
+}
+
+.h_link {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 12px;
+    color: #1111117a;
+    text-decoration: none;
+    transition: all 0.3s;
+    letter-spacing: 0px;
+}
+
+.h_link:hover {
+    color: #111111cc;
+}
+
+@media screen and (max-width: 470px) {
+    .h_logo {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .header_link {
+        margin: 0 12px 0 0;
+    }
+}

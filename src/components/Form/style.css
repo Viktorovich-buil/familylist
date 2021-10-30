@@ -1,0 +1,32 @@
+.form_parent_data {
+    display: flex;
+    flex-direction: column;
+}
+.add_children_block {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    justify-content: space-between;
+   }
+
+.add_data_block {
+    margin-top: 25px;
+}
+
+.plus_img {
+    margin: 0 8px 0 4px;
+}
+
+
+@media screen and (max-width: 529px) {
+    .add_data_block {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .add_children_button_name  {
+        display: none;
+    }
+}
