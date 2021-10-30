@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Form from "./components/Form/Form";
@@ -12,6 +12,7 @@ function App() {
                 <Switch>
                     <Route path="/" component={Form} exact={true}/>
                     <Route path="/preview" component={Preview} exact={true}/>
+                    <Redirect to="/" />
                 </Switch>
             </div>
             <Footer />
